@@ -10,8 +10,8 @@ import java.util.List;
 
 public class DepartmentTest {
 	public static void main(String[] args) {
-		/*
-		Department deptObj1 = new Department();
+		
+		/*Department deptObj1 = new Department();
 		
 		deptObj1.setDepartmentNumber(55);
 		deptObj1.setDepartmentName("CODING");
@@ -19,8 +19,8 @@ public class DepartmentTest {
 		
 		DepartmentDAOImpl ddiObj = new DepartmentDAOImpl(); // driver loaded, connected too
 		
-		ddiObj.addDepartment(deptObj1); // insert query is hidden inside it
-		*/
+		ddiObj.addDepartment(deptObj1); // insert query is hidden inside it*/
+		
 		System.out.println("--------------------------");
 		
 		/*Department deptObj1 = new Department();
@@ -236,6 +236,9 @@ class DepartmentDAOImpl implements DepartmentDAO
 			System.out.println("Trying to fire it... ");	//4th step : fire the statement and acquire result if any
 			int rows = pst.executeUpdate(); //fire the pst associated insert query
 			System.out.println("Record deleted..."+rows);
+			System.out.println("Trying to fire it... ");
+			System.out.println("Trying to fire it... ");
+			System.out.println("Trying to fire it... ");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
